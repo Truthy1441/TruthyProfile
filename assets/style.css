@@ -52,21 +52,15 @@ body {
 
 @media (max-width: 768px) {
   .box {
-    width: 80%;
+    width: 90%;
     margin: 10% auto;
-    padding: 5%;
+    padding: 2%;
+    padding-bottom: 5%;
   }
-
-  .box p,
-  .box a {
-    font-size: medium;
-  }
-
-  #socials,
-  #other {
-    float: none;
+  #socials, #other {
     display: block;
+    float: none;
     text-align: center;
-    margin-top: 20px;
   }
 }
+
