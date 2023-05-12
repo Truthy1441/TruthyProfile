@@ -104,5 +104,11 @@ audio {
       font-size: 18px;
       margin-left: 30%;
     }
+      #blur {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        backdrop-filter: blur(200px);
+      }
   }
   
